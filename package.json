@@ -1,0 +1,15 @@
+{
+  "name": "resume-portfolio-static",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Static resume and portfolio site for GitHub Pages.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "test:run": "node --test tests/*.test.mjs",
+    "preview": "node scripts/preview.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
