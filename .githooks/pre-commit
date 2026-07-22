@@ -1,0 +1,4 @@
+#!/bin/sh
+# Tracked pre-commit entry point for the repository's Git standard.
+node scripts/check-commit-location.mjs
+exit $?
